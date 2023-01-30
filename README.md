@@ -1,4 +1,5 @@
 ## Api Watch Dog
+> fork https://github.com/daodao97/apidog 基于 hyperf3.0没有发布可使用版本
 一个 [Hyperf](https://github.com/hyperf/hyperf) 框架的 Api 参数校验及 swagger 文档生成组件
 
 1.  根据注解自动进行Api参数的校验, 业务代码更纯粹.
@@ -11,14 +12,14 @@
 ## 安装
 
 ```
-composer require daodao97/apidog
+composer require andphp/apidog
 ```
 ## 使用
 
 #### 1. 发布配置文件
 
 ```bash
-php bin/hyperf.php vendor:publish daodao97/apidog
+php bin/hyperf.php vendor:publish andphp/apidog
 
 # hyperf/validation 的依赖发布
 
